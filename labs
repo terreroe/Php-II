@@ -1,0 +1,6 @@
+Identify the namespaces used
+    namespace OrderApp\Controller;  Within controller/indexController.php
+    namespace OrderApp\Core\Controller;
+    
+How is the autoload initiated.
+    require_once __DIR__ . '/composer/autoload_real.php'; within vendor/autoload.ph 
